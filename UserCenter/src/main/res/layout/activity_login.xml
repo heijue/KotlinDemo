@@ -11,32 +11,38 @@
         android:orientation="horizontal">
 
         <EditText
+            android:id="@+id/mPhoneNumber"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="@string/phone_hint" />
 
         <Button
+            android:id="@+id/mGetVerifyingCode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="获取验证码" />
     </LinearLayout>
 
     <EditText
+        android:id="@+id/mInputVerify"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="请输入验证码" />
 
     <EditText
+        android:id="@+id/mPsw1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="请输入密码" />
 
     <EditText
+        android:id="@+id/mPsw2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="请确认密码" />
     <Button
+        android:id="@+id/mRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="注册"
