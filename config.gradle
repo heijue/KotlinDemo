@@ -1,0 +1,35 @@
+ext {
+    android = [
+            compileSdkVersion   : 26,
+            buildToolsVersion   : '27.0.3',
+            applicationId       : 'com.xuyf.kotlin',
+            minSdkVersion       : 17,
+            targetSdkVersion    : 26,
+            versionCode         : 1,
+            versionName         : 'v 1.0.0',
+            defaultPublishConfig: 'release',
+            publishNonDefault   : true,
+            kotlin_version: '1.2.51',
+            minSdkVersion: '14',
+            targetSdkVersion: '26',
+            anko_version: 'org.jetbrains.anko:anko-commons:0.10.5',
+            kotlin_jdk_version: 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30'
+
+    ]
+    dependencies = [
+            "appcompat-v7"     : 'com.android.support:appcompat-v7:26.1.0',
+            "support-design"   : 'com.android.support:design:+',
+
+            "junit"            : 'junit:junit:4.12',
+            "gson"             : 'com.google.code.gson:gson:2.8.0',
+            "rxandroid"        : 'io.reactivex:rxandroid:1.2.1',
+            "rxjava"           : 'io.reactivex:rxjava:1.2.4',
+            "constraint-layout": 'com.android.support.constraint:constraint-layout:1.0.2',
+            "retrofit"         : 'com.squareup.retrofit2:retrofit:2.2.0',
+            "converter-gson"   : 'com.squareup.retrofit2:converter-gson:2.2.0',
+            "adapter-rxjava"   : 'com.squareup.retrofit2:adapter-rxjava:2.1.0',
+            "butterknife"      : 'com.jakewharton:butterknife:8.5.1',
+            "eventbus"         : 'org.greenrobot:eventbus:3.0.0'
+
+    ]
+}

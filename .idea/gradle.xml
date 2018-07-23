@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/App" />
-            <option value="$PROJECT_DIR$/Basemodule" />
+            <option value="$PROJECT_DIR$/BaseLibabry" />
             <option value="$PROJECT_DIR$/Provider" />
             <option value="$PROJECT_DIR$/UserCenter" />
           </set>
